@@ -1,28 +1,28 @@
-# Sistema de Gestão Médica
+# Medical Management System
 
-## Descrição
+## Description
 
-Aplicação desktop em Java com interface gráfica Swing para gestão médica, incluindo módulos para gestão de utentes, médicos, consultas, medicamentos, exames, e persistência de dados em JSON.
+Desktop Java application with Swing GUI for medical management, including modules for patients, doctors, appointments, medications, exams, and JSON data persistence.
 
-## Funcionalidades
+## Features
 
-- Gestão completa de utentes e médicos  
-- Marcação e acompanhamento de consultas  
-- Registo e controlo de medicamentos  
-- Armazenamento e leitura de dados em ficheiros JSON  
-- Interface gráfica amigável e intuitiva  
-- Relatórios e estatísticas básicas  
+- Complete management of patients and doctors  
+- Scheduling and tracking appointments  
+- Medication records and control  
+- Data storage and reading in JSON files  
+- User-friendly graphical interface  
+- Basic reports and statistics  
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Java SE 8+  
-- Swing para interface gráfica  
-- Biblioteca Gson para persistência JSON  
-- SQLite (se aplicável)  
-- Git para controlo de versões  
+- Swing for GUI  
+- Gson library for JSON persistence  
+- SQLite (if applicable)  
+- Git for version control  
 
-## Como Executar
+## How to Run
 
-1. Clona o repositório:  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/luisandrade29/gestao-medica.git
