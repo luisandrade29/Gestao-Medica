@@ -2,7 +2,7 @@ package model;
 
 public class EquipamentoMedico {
 
-    private String codigo;     // código ou número de série
+    private String codigo;    
     private String nome;
     private String descricao;
 
