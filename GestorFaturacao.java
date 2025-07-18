@@ -14,7 +14,7 @@ public class GestorFaturacao extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        // Exemplo simples: só um botão para listar faturas
+        
         JButton btnListar = new JButton("Listar Faturas");
         btnListar.addActionListener(e -> listarFaturas());
 
