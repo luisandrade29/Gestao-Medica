@@ -19,12 +19,10 @@ public class FormularioConsulta extends JFrame {
     private JButton botaoSalvar;
     private JButton botaoCancelar;
 
-    // ✅ Construtor padrão sem argumentos
     public FormularioConsulta() {
-        this(new ArrayList<>()); // Chama o construtor principal com lista vazia
+        this(new ArrayList<>()); 
     }
 
-    // ✅ Construtor principal com lista de médicos
     public FormularioConsulta(List<Medico> listaMedicos) {
         setTitle("Formulário de Consulta");
         setSize(400, 300);
@@ -70,7 +68,7 @@ public class FormularioConsulta extends JFrame {
                     Consulta consulta = new Consulta(medicoSelecionado, data, descricao);
                     JOptionPane.showMessageDialog(FormularioConsulta.this, "Consulta salva com sucesso!");
                     dispose();
-                    // Aqui podes passar a consulta ao gestor principal
+                    
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(FormularioConsulta.this, "Data inválida. Use o formato dd/MM/yyyy.");
                 }
