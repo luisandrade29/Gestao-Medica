@@ -49,7 +49,6 @@ public class FormularioMedico extends JFrame {
                 String especialidade = campoEspecialidade.getText();
                 String crm = campoCrm.getText();
 
-                // Aqui podes guardar ou processar os dados
                 System.out.println("Médico salvo: " + nome + ", " + especialidade + ", " + crm);
                 JOptionPane.showMessageDialog(FormularioMedico.this, "Médico salvo com sucesso!");
                 dispose();
