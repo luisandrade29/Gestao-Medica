@@ -10,7 +10,7 @@ public class FormularioDoenca extends JDialog {
     private GestorDoencas gestorDoencas;
     private Doenca doencaEditar;
 
-    // Recebe Frame e GestorDoencas separadamente
+    
     public FormularioDoenca(Frame parentFrame, GestorDoencas gestorDoencas, Doenca doenca) {
         super(parentFrame, "Formulário de Doença", true);
         this.gestorDoencas = gestorDoencas;
