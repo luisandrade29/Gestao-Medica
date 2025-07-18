@@ -5,7 +5,6 @@ import java.awt.*;
 import java.util.ArrayList;
 import model.Analise;
 
-// Importa o FormularioExame que está no pacote gestor
 import gestor.FormularioExame;
 
 public class GestorAnalises extends JFrame {
