@@ -50,7 +50,7 @@ public class FormularioDepartamento extends JDialog {
 
     private void carregarDados() {
         tfId.setText(String.valueOf(departamentoEditar.getId()));
-        tfId.setEnabled(false); // ID não editável
+        tfId.setEnabled(false); 
         tfNome.setText(departamentoEditar.getNome());
         tfEspecialidade.setText(departamentoEditar.getEspecialidade());
     }
