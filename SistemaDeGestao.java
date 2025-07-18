@@ -9,7 +9,7 @@ public class SistemaDeGestao {
         SwingUtilities.invokeLater(() -> {
             GestorUtentes gestorUtentes = new GestorUtentes();
             gestorUtentes.setVisible(true);
-            // Se quiseres, podes abrir outras janelas aqui, ex GestorMedicos
+        
         });
     }
 }
