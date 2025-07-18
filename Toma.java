@@ -16,7 +16,6 @@ public class Toma {
         this.numeroUtente = numeroUtente;
     }
 
-    // Getters e setters
 
     public String getNomeMedicamento() {
         return nomeMedicamento;
