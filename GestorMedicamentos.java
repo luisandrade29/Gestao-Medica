@@ -52,7 +52,6 @@ public class GestorMedicamentos extends JFrame {
         });
     }
 
-    // Método opcional para adicionar medicamento externamente
     public void adicionarMedicamento(Medicamento medicamento) {
         listaMedicamentos.add(medicamento);
     }
