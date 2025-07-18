@@ -1,5 +1,4 @@
-package gestor;  // Ajusta conforme a tua estrutura de pacotes
-
+package gestor;  
 import model.Utente;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -14,14 +13,13 @@ public class ListagemUtentes extends JDialog {
         setLocationRelativeTo(parent);
         setLayout(new BorderLayout());
 
-        // Colunas da tabela
         String[] colunas = {"ID", "Nome", "Data Nasc.", "Gênero", "Nº Utente", "Altura", "Peso",
                 "Grupo Sanguíneo", "Telefone", "Email", "Morada", "Observações"};
 
-        // Modelo da tabela
+     
         DefaultTableModel model = new DefaultTableModel(colunas, 0);
 
-        // Preencher linhas com dados dos utentes
+    
         for (Utente u : utentes) {
             Object[] linha = {
                     u.getId(),
@@ -45,7 +43,7 @@ public class ListagemUtentes extends JDialog {
         JScrollPane scrollPane = new JScrollPane(tabela);
         add(scrollPane, BorderLayout.CENTER);
 
-        // Botão Fechar
+       
         JButton btnFechar = new JButton("Fechar");
         btnFechar.addActionListener(e -> dispose());
 
